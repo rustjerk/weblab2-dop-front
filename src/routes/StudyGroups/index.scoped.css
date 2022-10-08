@@ -1,0 +1,27 @@
+h1 {
+  margin-bottom: 32px;
+  color: #000;
+}
+
+.groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 10px;
+}
+
+.groups a {
+  display: block;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  background: white;
+  text-align: center;
+  text-decoration: none;
+  color: #666;
+  transition: all 200ms ease;
+}
+.groups a:hover {
+  transition: all 200ms ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  color: #000;
+}
